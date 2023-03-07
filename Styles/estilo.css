@@ -1,0 +1,129 @@
+body{
+    background-image: url(../Img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+@font-face {
+    font-family: Holyfat;
+    src: url(../Fonts/Holyfat.ttf);
+}
+
+.uno{
+    font-family: Holyfat;
+    font-size: 35pt;
+}
+
+.a1{
+    color: rgb(142, 211, 38) !important;
+}
+
+.a1:hover{
+    background-color: rgb(142, 211, 38) !important;
+    color: white !important;
+}
+
+.titulos{
+    color: rgb(151, 227, 37) !important;
+}
+
+.primerP{
+    color: rgb(68, 207, 226);
+    font-size: 15pt;
+    text-align: justify;
+}
+
+.boton1{
+    background-color: rgb(142, 211, 38) !important;
+    border: none;
+    border-radius: 70%;
+    width: 200px;
+    height: 90px;
+}
+
+.img2{
+    width: 100%;
+}
+
+.boton1:hover{
+    background-color: rgba(138, 206, 35, 0.641) !important;
+}
+
+.parrafoyboton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.obj{
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.589);
+    text-align: center;
+    font-family: Holyfat;
+    color: rgb(151, 227, 37);
+    border-radius: 20px;
+}
+
+.parrobj{
+    width: 700px;
+    background-color: rgba(142, 211, 38, 0.788);
+    text-align: justify;
+    color: white;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.temas{
+    background-color: rgba(255, 255, 255, 0.589);
+    text-align: center;
+    font-family: Holyfat;
+    color: rgb(151, 227, 37);
+    border-radius: 20px
+}
+
+.anc{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(142, 211, 38, 0.788);
+    padding: 1rem;
+}
+
+.ancint{
+    color: white;
+    text-decoration: none;
+}
+
+#imgfin{
+    width: 250px !important;
+    cursor: pointer;
+}
+
+#imgfin:hover{
+    filter: brightness(130%);
+}
+
+.subtitulo{
+    color: rgb(151, 227, 37);
+    text-align: center;
+    margin: auto;
+    width: 520px;
+    font-family: Holyfat;
+}
+
+footer{
+    background-color: rgba(255, 255, 255, 0.514);
+    padding-top: 1rem;
+}
+
+.in{
+    width: 3%;
+    cursor: pointer;
+}
+
+.fb{
+    width: 3%;
+    cursor: pointer;
+}
+
+.fb:hover{
+    filter: brightness(100%);
+}
